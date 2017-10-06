@@ -1,1 +1,0 @@
-# Anthony Blaom, PhD
