@@ -9,10 +9,10 @@ categories: [regression, credit]
 
 ![model1.png]({{base.url}}/assets/model1.png)![model2.png]({{base.url}}/assets/model2.png)
 
-Even advanced data analysts routinely plot some target variable (e.g.,
-used car prices) against one attribute at a time (mileage, age,
+Data analysts routinely plot some target variable (e.g.,
+used car prices) against some fixed attribute (mileage, age,
 condition, etc) to get some insight into their data. However, **applying
-one-variable methods to multi-variable problems is fraught with
+single-variable methods to multi-variable data is fraught with
 danger**, as I argue in
 [this](https://rawgit.com/ablaom/MultiLinearIntro/master/multi.pdf)
 little introduction to multilinear regression for the newbie.
