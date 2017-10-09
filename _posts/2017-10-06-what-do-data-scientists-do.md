@@ -5,9 +5,9 @@ date: 2017-10-06 13:44:46 +1300
 categories: general
 ---
 
-Data scientists perform many services, ranging from data
-infrastructure design and management to data analysis of various
-sorts. In my consulting I focus on the data analysis side, and in
+Data scientists perform services ranging from data
+infrastructure design and management, to data analysis of various
+kinds. In my consulting I focus on the data analysis side, and in
 particular on so-called machine learning tasks, which is what I will
 discuss here. 
 
@@ -72,13 +72,17 @@ settling on particular one. In an advanced technique known as
 *stacking* a data scientist may even combine several models together
 to gain that extra edge.
 
-A crucial role played by the data scientist is in the
-*interpretation* of a model's output. For a simple example, consider
-the problem of selecting a home-valuation model for a bank. One might
-be tempted to choose the model with the lowest error, as estimated on
-some test data. However, from a risk-management perspective, the bank
-may actually prefer a model with a *larger* average error, if one can
-associate greater certainty with the error estimate.
+A crucial role played by the data scientist is in the **interpretation**
+of a model's output. For a start, a poor choice of improperly trained
+model can easily generate garbage responses, and troubleshooting is
+difficult without an understanding of the model's inner workings. For a
+subtler example, consider the problem of selecting a home-valuation
+model for a bank. One might be tempted to choose the model with the
+lowest error, as estimated on some test data. However, from a
+risk-management perspective, the bank may actually prefer a model with
+a *larger* average error, if one can associate greater certainty with
+the error estimate. Addressing issues such as these requires some
+mathematical and statistical sophistication.
 
 To get an idea of the complexity of model-selection, check out this
 (somewhat outdated) cheat-sheet from
