@@ -1,0 +1,25 @@
+print("Categories for post (eg, [regression, property]; default is none): ")
+input = chomp(readline())
+category = (input == "" ? "" : input)
+print("Title of post: ")
+title = chomp(readline())
+filename = replace(title, [',', '.', '`', '\'', '?', '!' ,':', '-', '(', ')', '/'], "")
+filename = replace(filename, ' ', "-")
+filename = replace(filename, "--", "-")
+filename = lowercase(filename)
+filename = string("_posts/", Dates.today(), "-", filename, ".md")
+println("File name: ", filename)
+print("Hit `return` or enter replacement: ")
+alternative = chomp(readline())
+filename = (alternative == "" ? filename : alternative)
+open(filename, "w") do file
+    println(file, "---")
+    println(file, "layout: post")
+    println(file, "title:  \"", title, "\"")
+    this_moment = replace(string(now())[1:19]*" +1300", 'T', " ")
+    println(file, "date: ", this_moment)
+    println(file, "categories: ", category)
+    println(file, "---")
+end
+
+

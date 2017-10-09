@@ -19,10 +19,13 @@ description: >- # this means to ignore newlines until "baseurl:"
   Mathematician and Data Scientist
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 
+# twitter_username:
 github_username:  ablaom
-
-include: ['_pages']
+# include: ['_pages']
+header_pages:
+  - datascience.md
+  - research.md
+  - contact.md
 kramdown:
   input: GFM
 theme: minima
