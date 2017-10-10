@@ -5,9 +5,9 @@ title: Mathematician and Data Scientist
 ---
 ![banner]({{ base.url }}/assets/shipwreck2.jpg)
 
-Anthony Blaom's professional interests are divided between mathematics
+Anthony Blaom carries out mathematics
 [research]({{ base.url }}{% link research.md %})  and [data science consulting]({{ base.url
-}}{% link datascience.md %}).
+}}{% link datascience.md %}). He resides in Auckland, New Zealand.
 
 Anthony was initially trained as a mechanical engineer, topping his
 class at the University of Melbourne in 1991. After completing a
