@@ -28,6 +28,7 @@ header_pages:
   - contact.md
 kramdown:
   input: GFM
+markdown: redcarpet
 theme: minima
 plugins:
   - jekyll-feed
