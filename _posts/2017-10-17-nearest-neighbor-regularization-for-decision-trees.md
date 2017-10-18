@@ -44,10 +44,10 @@ the algorithm works:
 1. Fit a decision tree to the training data as usual, with no pruning
 (`min_patterns_split=2`).
 
-2. Choose a non-negative number $$r<1$$; this will determine the
+2. Choose a non-negative number $r<1$; this will determine the
 degree of regularization.
 
-3. With \\(r\\) fixed, the  model's prediction on an input pattern \\(P\\) is
+3. With \\(r\\) fixed, the  model's prediction on an input pattern $$P$$ is
 determined as follows:
 
     - Run the pattern \\(P\\) down the tree as usual, until you reach
