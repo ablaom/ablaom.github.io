@@ -44,10 +44,10 @@ the algorithm works:
 1. Fit a decision tree to the training data as usual, with no pruning
 (`min_patterns_split=2`).
 
-2. Choose a non-negative number $r<1$; this will determine the
+2. Choose a non-negative number \(r<1\); this will determine the
 degree of regularization.
 
-3. With \\(r\\) fixed, the  model's prediction on an input pattern $$P$$ is
+3. With \\(r\\) fixed, the  model's prediction on an input pattern \\(P\\) is
 determined as follows:
 
     - Run the pattern \\(P\\) down the tree as usual, until you reach
@@ -72,9 +72,9 @@ determined as follows:
 
     - The regularized prediction for pattern \\(P\\) is then a normalized weighted
     sum of the predictions of  the "nearby" leaves:
-    \\[
+    \[
 		p = \frac{1}{s} \Big(\,p_0 +  r p_1 + r^2 p_2 + r^3 p_3 + \cdots + r^d p_d\,\Big).
-    \\] 
+    \] 
     Here \\(s\\) is the sum of the weights:
     \\[
        s = 1 + r + r^2 + r^3 + \cdots + r^d = \frac{1-r^{d+1}}{1-r}.
