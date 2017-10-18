@@ -25,10 +25,10 @@ github_username:  ablaom
 header_pages:
   - datascience.md
   - research.md
-  - contact.md
+#  - contact.md
 kramdown:
   input: GFM
-markdown: redcarpet
+# markdown: redcarpet
 theme: minima
 plugins:
   - jekyll-feed
