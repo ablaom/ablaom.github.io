@@ -11,7 +11,7 @@ categories: [regression]
 > assume a nodding acquaintance with decision trees and their
 > training.
 
-A [Julia notebook](https://cdn.rawgit.com/ablaom/NearestNeighborTreeRegressors/f6549656/compare_regularizers.ipynb) showing the testing reported here is also available.  
+A [Julia notebook](http://nbviewer.jupyter.org/github/ablaom/NearestNeighborTreeRegressors/blob/master/compare_regularizers.ipynb) showing the testing reported here is also available.  
 
 ## Decision trees in supervised learning
 
