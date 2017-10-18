@@ -32,7 +32,7 @@ training patterns reaching a tree node exceeds a certain a preset size
 (the regularization parameter, here called `min_patterns_split`) then
 the node is not split further, becoming a leaf (prediction node) whose
 prediction is the mean value of the target for patterns reaching the
-node. For the sake of concretenes, we are assuming here our problem is a
+node. For the sake of concreteness, we are assuming here our problem is a
 regression problem, rather than a classification one.
 
 ## Nearest neighbor regularization
@@ -143,7 +143,7 @@ Handle    | Full Name                  | No. Input Attributes | No. Instances | 
 
 *Year information and the season field have been dropped, while the
 date has been replaced by the sine and cosine of the corresponding
-within-year phase $\theta$ (so that $\theta=0$ corresps to
+within-year phase $\theta$ (so that $\theta=0$ corresponds to
 January 1st, and $\theta=\pi$ corresponding to the middle of the
 calendar year).
 
