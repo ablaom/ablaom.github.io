@@ -135,7 +135,7 @@ below gives further details.
 Handle    | Full Name                  | No. Input Attributes | No. Instances | Source
 :---------|:---------------------------|:---------------------|:--------------|-------
 "bike_r"  | Bike Sharing*              | 11                   | 1739          | [1] and [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/bike+sharing+dataset)
-"toyota_r"| Toyota Corolla             | 9                    | 1436          | [2]
+"toyota_r"| Toyota Corolla             | 9                    | 1436          | [2] and [Data Illuminations](https://github.com/datailluminations/PredictingToyotaPricesBlog)
 "ames_r"  | Ames House Price Data**    | 12                   | 1456          | [3] and [Kaggle](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data)
 "abalone_r"| Abalome (seafood)          | 8                    | 4177          | [4] and [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/abalone)
 "power_r" | Combined Cycle Power Plant | 4                    | 9568          | [5,6] and [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Combined+Cycle+Power+Plant)
@@ -152,6 +152,8 @@ calendar year).
 ## References
 
 [1] Fanaee-T, Hadi and Gama, Joao, "Event labeling combining ensemble detectors and background knowledge", *Progress in Artificial Intelligence* (2013): pp. 1-15. 
+
+[2] Original source unknown, but referenced on [this](http://www.datasciencecentral.com/profiles/blogs/predicting-car-prices-part-1-linear-regression) blog of Peter Chan, San Diego.
 
 [3] De Cock, Dean, "Ames, Iowa: Alternative to the Boston Housing Data as an End of Semester Regression Project", *Journal of Statistics Education* Volume 19, Number 3(2011).
 
