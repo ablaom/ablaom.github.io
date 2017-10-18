@@ -37,7 +37,7 @@ regression problem, rather than a classification one.
 
 ## Nearest neighbor regularization
 A minor shortcoming of `min_patterns_split` is that it takes only discrete
-values \\( 2, 3, 4\ldots\\). In the method we call *nearest neighbor
+values $ 2, 3, 4\ldots$. In the method we call *nearest neighbor
 regularization*, the regularization parameter is continuous. Here's how
 the algorithm works:
 
@@ -47,43 +47,43 @@ the algorithm works:
 2. Choose a non-negative number \(r<1\); this will determine the
 degree of regularization.
 
-3. With \\(r\\) fixed, the  model's prediction on an input pattern \\(P\\) is
+3. With $r$ fixed, the  model's prediction on an input pattern $P$ is
 determined as follows:
 
-    - Run the pattern \\(P\\) down the tree as usual, until you reach
-      a  prediction node \\(N_0\\) and let \\(p_0\\) be the
-      target value for the single pattern that reaches \\(N_0\\)
+    - Run the pattern $P$ down the tree as usual, until you reach
+      a  prediction node $N_0$ and let $p_0$ be the
+      target value for the single pattern that reaches $N_0$
       during training (the usual unregularized prediction).
 
     - Label the nodes visited along the way using reverse-order
-      indices. So, the stump node will be \\(N_d\\), where \\(d\\) is
-      the depth of \\(N_0\\), which is followed by \\(N_{d-1},
-      N_{d-2},\ldots,\\) and so on, until we reach the last nodes
-      visited, \\(\ldots, N_3,N_2,N_1,N_0\\).
+      indices. So, the stump node will be $N_d$, where $d$ is
+      the depth of $N_0$, which is followed by $N_{d-1},
+      N_{d-2},\ldots,$ and so on, until we reach the last nodes
+      visited, $\ldots, N_3,N_2,N_1,N_0$.
 
-   - At each node \\(N_j\\) branch to the node that is *not*
-     \\(N_{j+1}\\). So, if the decision criterion at \\(N_j\\) applied to \\(P\\)
+   - At each node $N_j$ branch to the node that is *not*
+     $N_{j+1}$. So, if the decision criterion at $N_j$ applied to $P$
      says branch left, then branch right instead, and vice-versa. Thereafter,
      continue branching as usual, arriving a new final node
-     \\(L_j\\) different from \\(N_0\\) (unless \\(j=0\\)). We may think of \\(L_j\\) as
-     the "\\(j\\)th closest leaf to \\(N_0\\)", as measured by pattern
-     \\(P\\), and let \\(p_j\\) denote the prediction there (the
-     target value for  the single training pattern reaching \\(L_j\\)).
+     $L_j$ different from $N_0$ (unless $j=0$). We may think of $L_j$ as
+     the "$j$th closest leaf to $N_0$", as measured by pattern
+     $P$, and let $p_j$ denote the prediction there (the
+     target value for  the single training pattern reaching $L_j$).
 
-    - The regularized prediction for pattern \\(P\\) is then a normalized weighted
+    - The regularized prediction for pattern $P$ is then a normalized weighted
     sum of the predictions of  the "nearby" leaves:
     \[
-		p = \frac{1}{s} \Big(\,p_0 +  r p_1 + r^2 p_2 + r^3 p_3 + \cdots + r^d p_d\,\Big).
-    \] 
-    Here \\(s\\) is the sum of the weights:
-    \\[
+      p = \frac{1}{s} \Big(\,p_0 +  r p_1 + r^2 p_2 + r^3 p_3 + \cdots + r^d p_d\,\Big).
+    \]
+    Here $s$ is the sum of the weights:
+    \[
        s = 1 + r + r^2 + r^3 + \cdots + r^d = \frac{1-r^{d+1}}{1-r}.
-    \\]
+    \]
     For large datasets one may want to truncate the sums to some
     maximum depth to speed up prediction.
 
 4. Now that predictions are defined for our regularized model, we can compute
-    errors and tune the regularization parameter \\(r\\) as usual,
+    errors and tune the regularization parameter $r$ as usual,
     comparing errors on a holdout validation dataset, or using
     cross-validation.
 
@@ -94,7 +94,7 @@ on the datasets are given at the end.
 
 For each dataset a root-mean-square (RMS) or root-mean-square-log
 (RMSL) error is used as the criterion for tuning the regularization
-parameters `min_patterns_split` (for pruning) and \\(r\\) (for nearest
+parameters `min_patterns_split` (for pruning) and $r$ (for nearest
 neighbor regression). 
 
 In our first comparison of the regularization methods
@@ -119,7 +119,7 @@ nearest neighbor regularization beats pruning in every case except the
 
 ## Ease of optimization
 We found the nearest neighbor regularization
-parameter \\(r\\) (always between 0 and 1) easier to tune than the
+parameter $r$ (always between 0 and 1) easier to tune than the
 pruning parameter `min_patterns_split`. The plots below, shown for the
 "abalone_r" dataset, give an indication of this:
 
@@ -142,8 +142,8 @@ Handle    | Full Name                  | No. Input Attributes | No. Instances | 
 
 *Year information and the season field have been dropped, while the
 date has been replaced by the sine and cosine of the corresponding
-within-year phase \\(\theta\\) (so that \\(\theta=0\\) corresps to
-January 1st, and \\(\theta=\pi\\) corresponding to the middle of the
+within-year phase $\theta$ (so that $\theta=0$ corresps to
+January 1st, and $\theta=\pi$ corresponding to the middle of the
 calendar year).
 
 **With a reduced set of features selected by a tree-based ranking scheme.
