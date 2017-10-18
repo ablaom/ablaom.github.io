@@ -8,7 +8,7 @@ categories: [regression]
 > Here we describe a new way to regularize decision trees which
 > outperforms conventional pruning. Optimizing the regularization
 > parameter is also more straightforward. We
-> assume at a nodding acquaintance with decision trees and their
+> assume a nodding acquaintance with decision trees and their
 > training.
 
 ## Decision trees in supervised learning
@@ -44,7 +44,7 @@ the algorithm works:
 1. Fit a decision tree to the training data as usual, with no pruning
 (`min_patterns_split=2`).
 
-2. Choose a non-negative number \\(r<1\\); this will determine the
+2. Choose a non-negative number $$r<1$$; this will determine the
 degree of regularization.
 
 3. With \\(r\\) fixed, the  model's prediction on an input pattern \\(P\\) is
