@@ -151,7 +151,7 @@ calendar year).
 
 **With a reduced set of features selected by a tree-based ranking scheme.
 
-## References
+### References
 
 [1] Fanaee-T, Hadi and Gama, Joao, "Event labeling combining ensemble detectors and background knowledge", *Progress in Artificial Intelligence* (2013): pp. 1-15. 
 
