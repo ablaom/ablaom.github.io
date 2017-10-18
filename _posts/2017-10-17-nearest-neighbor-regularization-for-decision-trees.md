@@ -129,7 +129,8 @@ pruning parameter `min_patterns_split`. The plots below, shown for the
 ## Data sources
 The datasets were chosen ahead of time, without prior
 knowledge of how well the regularization methods would compare. We did
-exclude very large datasets, to reduce testing time. The table below gives further details.
+rule out some very large datasets, to reduce testing time. The table
+below gives further details.
 
 Handle    | Full Name                  | No. Input Attributes | No. Instances | Source
 :---------|:---------------------------|:---------------------|:--------------|-------
