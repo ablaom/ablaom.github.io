@@ -38,7 +38,7 @@ node. For the sake of concreteness, we are assuming here our problem is a
 regression problem, rather than a classification one.
 
 ## Nearest neighbor regularization
-A minor shortcoming of `min_patterns_split` is that it takes only discrete
+The parameter `min_patterns_split` takes on discrete
 values $ 2, 3, 4\ldots$. In the method we call *nearest neighbor
 regularization*, the regularization parameter is continuous. Here's how
 the algorithm works:
@@ -46,7 +46,7 @@ the algorithm works:
 1. Fit a decision tree to the training data as usual, with no pruning
 (`min_patterns_split=2`).
 
-2. Choose a non-negative number \(r<1\); this will determine the
+2. Choose a non-negative number $r<1$; this will determine the
 degree of regularization.
 
 3. With $r$ fixed, the  model's prediction on an input pattern $P$ is
@@ -151,7 +151,7 @@ calendar year).
 
 **With a reduced set of features selected by a tree-based ranking scheme.
 
-### References
+## References
 
 [1] Fanaee-T, Hadi and Gama, Joao, "Event labeling combining ensemble detectors and background knowledge", *Progress in Artificial Intelligence* (2013): pp. 1-15. 
 
