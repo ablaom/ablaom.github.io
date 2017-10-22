@@ -19,8 +19,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Mathematician and Data Scientist
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username:
 github_username:  ablaom
+linkedin_username: anthony-blaom
 # include: ['_pages']
 header_pages:
   - datascience.md
