@@ -3,7 +3,9 @@
 layout: page
 title: Mathematician and Data Scientist
 ---
-![banner]({{ base.url }}/assets/shipwreck2.jpg)
+![banner]({{ base.url }}/assets/portrait2016.jpg)
+
+[comment]: #![banner]({{ base.url }}/assets/shipwreck2.jpg)
 
 Anthony Blaom carries out mathematics
 [research]({{ base.url }}{% link research.md %})  and [data science consulting]({{ base.url
