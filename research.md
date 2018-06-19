@@ -50,6 +50,9 @@ new field called "Information Geometry".
 
 - A. D. Blaom (2000). [Reconstruction phases via Poisson
   reduction.](https://pdfs.semanticscholar.org/42c3/11546339da02937f85a1f4a03dba2452927c.pdf) *Differential Geometry and its Applications* 12(3):231--252 (21 pages)
-A complete list of publications is available [here](https://scholar.google.co.nz/citations?user=3kzwz40AAAAJ&hl=en).
+
+
+A complete list of publications is available
+[here](https://scholar.google.co.nz/citations?user=3kzwz40AAAAJ&hl=en).
 
 
