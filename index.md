@@ -23,6 +23,4 @@ While presently focused on his consulting practice, Anthony
 continues to publish  his research in peer-reviewed mathematics
 journals on a semi-regular basis.
 
-Anthony is father of three and married to Air New Zealand Captain Thyra Blaom.
-
 <!-- ![portrait]({{base.url}}/assets/portrait.jpg) -->
