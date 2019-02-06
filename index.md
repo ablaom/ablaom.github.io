@@ -19,8 +19,13 @@ Auckland as a Lecturer.  For a while he switched
 to part-time teaching, focusing on his young children,
 whom he homeschooled while living on the small island of Waiheke.
 
-While presently focused on his consulting practice, Anthony
-continues to publish  his research in peer-reviewed mathematics
-journals on a semi-regular basis.
+Anthony is a co-creator and the lead contributor to
+[MLJ](https://github.com/alan-turing-institute/MLJ.jl), a Julia
+machine learning palatform developed at the Alan Turing Institute,
+London. While presently focused on data science, Anthony continues to
+publish his research in peer-reviewed mathematics journals on a
+semi-regular basis.
+
+
 
 <!-- ![portrait]({{base.url}}/assets/portrait.jpg) -->
