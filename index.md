@@ -21,7 +21,7 @@ whom he homeschooled while living on the small island of Waiheke.
 
 Anthony is a co-creator and the lead contributor to
 [MLJ](https://github.com/alan-turing-institute/MLJ.jl), a Julia
-machine learning palatform developed at the Alan Turing Institute,
+machine learning platform developed at the Alan Turing Institute,
 London. While presently focused on data science, Anthony continues to
 publish his research in peer-reviewed mathematics journals on a
 semi-regular basis.
