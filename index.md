@@ -1,7 +1,7 @@
 ---
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: page
-title: Mathematician and Data Scientist
+title: Mathematician
 ---
 ![banner]({{ base.url }}/assets/portrait2016.jpg)
 
