@@ -23,7 +23,7 @@ github_username:  ablaom
 linkedin_username: anthony-blaom
 # include: ['_pages']
 header_pages:
-  - datascience.md
+#  - datascience.md
   - research.md
   - contact.md
 kramdown:
