@@ -15,6 +15,8 @@ advection of **Fluid Flows**.
 
 # Recent work
 
+- Franz J. Király, Markus Löning, Anthony Blaom, Ahmed Guecioueur, Raphael Sonabend (2021). [Designing Machine Learning Toolboxes: Concepts, Principles and Patterns](https://arxiv.org/abs/2101.04938) *Preprint*, `arXiv:2101.04938` (35 pages)
+
 - Anthony D. Blaom and Sebastian J. Voller (2020). [Flexible model
   composition in machine learning and its implementation in
   MLJ](https://arxiv.org/abs/2012.15505) *Preprint*,
