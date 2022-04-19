@@ -15,6 +15,9 @@ advection of **Fluid Flows**.
 
 # Recent work
 
+- A. D. Blaom (2022). [A characterisation of smooth maps
+  into a homogeneous space.](https://arxiv.org/abs/1702.02717) *SIGMA* 18, 029, 15 pages
+  
 - Franz J. Király, Markus Löning, Anthony Blaom, Ahmed Guecioueur, Raphael Sonabend (2021). [Designing Machine Learning Toolboxes: Concepts, Principles and Patterns](https://arxiv.org/abs/2101.04938) *Preprint*, `arXiv:2101.04938` (35 pages)
 
 - Anthony D. Blaom and Sebastian J. Voller (2020). [Flexible model
@@ -27,11 +30,8 @@ advection of **Fluid Flows**.
   [MLJ: A Julia package for composable machine learning](https://joss.theoj.org/papers/10.21105/joss.02704) *Journal of Open Source Software* 5(55), 2704 (9 pages)
 
 - A. D. Blaom (2018). [Lie algebroid invariants for
-   subgeometry.](https://arxiv.org/abs/1703.03851) *SIGMA* 14, Paper No. 062, (36 pages)
+   subgeometry.](https://arxiv.org/abs/1703.03851) *SIGMA* 14, 062, 36 pages
 
-- A. D. Blaom (2017). [A characterisation of smooth maps
-  into a homogeneous space.](https://arxiv.org/abs/1702.02717) *Preprint*, `arXiv:1702.02717` (42 pages)
-  
 - A. D. Blaom (2017). [A geometer's view of the the Cramér-Rao bound
   on estimator variance](https://arxiv.org/abs/1710.01598) *Preprint*, `arXiv:1710.01598` (5 pages)
 
@@ -39,14 +39,14 @@ advection of **Fluid Flows**.
   hypersurface.](https://arxiv.org/abs/1702.03452) *Preprint*, `arXiv:1702.03452` (9 pages)
 
 - A. D. Blaom (2016). [Cartan connections on Lie
-  groupoids.](https://arxiv.org/abs/1605.04365) *SIGMA* 12, Paper No. 114 (26 pages)
+  groupoids.](https://arxiv.org/abs/1605.04365) *SIGMA* 12, 114, 26 pages
 
 - A. D. Blaom (2016). [Pseudogroups via pseudoactions:
   Unifying local, global, and infinitesimal symmetry.](https://www.researchgate.net/publication/267454445_Pseudogroups_via_pseudoactions_Unifying_local_global_and_infinitesimal_symmetry)  *Journal of
 	Lie Theory* 26(2):535--565 (31 pages)
 
 - A. D. Blaom (2013). [The infinitesimalization and
-  reconstruction of locally homogeneous manifolds.](https://arxiv.org/abs/1304.7838) *SIGMA* 9, Paper No. 074 (19 pages)
+  reconstruction of locally homogeneous manifolds.](https://arxiv.org/abs/1304.7838) *SIGMA* 9, 074, 19 pages
 
 - A. D. Blaom (2012). [Lie algebroids and Cartan's method of
   equivalence.](http://www.ams.org/journals/tran/2012-364-06/S0002-9947-2012-05441-9/S0002-9947-2012-05441-9.pdf). *Transactions of the American Mathematical
