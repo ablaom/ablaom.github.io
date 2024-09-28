@@ -59,6 +59,9 @@ advection of **Fluid Flows**.
 - A. D. Blaom (2002). [Reconstruction phases for Hamiltonian sytems on cotangent
 	bundles.](http://emis.ams.org/journals/DMJDMV/vol-07/18.pdf) *Documenta Mathematica* 7:561--604 (43 pages)
 
+- A. D. Blaom (2001). A geometric setting for Hamiltonian perturbation theory. *Memoirs of
+  the American Mathemathical Society* 153 (727): 1--112 (112 pages)
+
 - A. D. Blaom (2000). [Reconstruction phases via Poisson
   reduction.](https://pdfs.semanticscholar.org/42c3/11546339da02937f85a1f4a03dba2452927c.pdf) *Differential Geometry and its Applications* 12(3):231--252 (21 pages)
 
