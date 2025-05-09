@@ -22,10 +22,7 @@ Auckland as a Lecturer.  For a while he switched
 to part-time teaching, focusing on his young children,
 whom he homeschooled while living on the small island of Waiheke.
 
-Dr. Blaom resides in Auckland, New Zealand. He is currently a Senior
-Research Fellow in the [Department of Computer
-Science](https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/computer-science.html), University of Auckland.
-
+Dr. Blaom resides in Auckland, New Zealand.
 
 
 <!-- ![portrait]({{base.url}}/assets/portrait.jpg) -->
