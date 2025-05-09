@@ -15,6 +15,8 @@ advection of **Fluid Flows**.
 
 # Recent work
 
+- A. D. Blaom and Samuel Okon (2025). [New tools for comparing classical and neural ODE models for tumor growth.](https://arxiv.org/abs/2502.07964) *Preprint*, `arXiv:2502.07964` (9 pages)
+
 - A. D. Blaom (2022). [A characterisation of smooth maps
   into a homogeneous space.](https://arxiv.org/abs/1702.02717) *SIGMA* 18, 029, 15 pages
   
