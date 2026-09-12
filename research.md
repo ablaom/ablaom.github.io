@@ -44,7 +44,7 @@ advection of **Fluid Flows**.
   groupoids.](https://arxiv.org/abs/1605.04365) *SIGMA* 12, 114, 26 pages
 
 - A. D. Blaom (2016). [Pseudogroups via pseudoactions:
-  Unifying local, global, and infinitesimal symmetry.](https://www.researchgate.net/publication/267454445_Pseudogroups_via_pseudoactions_Unifying_local_global_and_infinitesimal_symmetry)  *Journal of
+  Unifying local, global, and infinitesimal symmetry.](https://jolt.centre-mersenne.org/articles/10.5802/jolt.900/) *Journal of
 	Lie Theory* 26(2):535--565 (31 pages)
 
 - A. D. Blaom (2013). [The infinitesimalization and
